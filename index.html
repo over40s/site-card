@@ -4,18 +4,24 @@
   <meta charset="utf-8">
   <title>OVER40S公式サイトこちら</title>
 
-  <!-- Xカードの設定 -->
+  <!-- Xカード用 -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@OVER40S_X">
   <meta name="twitter:title" content="OVER40S公式サイトこちら">
   <meta name="twitter:description" content="オトナになるのが楽しみになる演劇プロジェクト">
   <meta name="twitter:image" content="https://raw.githubusercontent.com/over40s/site-card/main/1500x500.jpg">
 
-  <!-- クリックしたときに飛ばしたいURL（リダイレクト） -->
-  <meta http-equiv="refresh" content="0; url=https://over40s.my.canva.site/">
+  <!-- Open Graph用（これも入れておくと安定） -->
+  <meta property="og:title" content="OVER40S公式サイトこちら">
+  <meta property="og:description" content="オトナになるのが楽しみになる演劇プロジェクト">
+  <meta property="og:image" content="https://raw.githubusercontent.com/over40s/site-card/main/1500x500.jpg">
+  <meta property="og:url" content="https://over40s.github.io/site-card/">
+  <meta property="og:type" content="website">
+
+  <!-- リダイレクト（0秒だとクローラーが読み逃すことがあるので少し遅らせる） -->
+  <meta http-equiv="refresh" content="1; url=https://over40s.my.canva.site/">
 </head>
 <body>
   <p>自動で移動します...</p>
-  <!-- 必要ならここに何か文章を書いてもOK -->
 </body>
 </html>
